@@ -89,7 +89,7 @@ class StockExample(server.App):
         plt_obj.set_title('Changing'+params['temp'])
         fig = plt_obj.get_figure()
         return fig
-
+#--------------
 
 app = StockExample()
 app.launch(port=9080)
